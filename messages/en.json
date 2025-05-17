@@ -1,0 +1,221 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "Header": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faqs": "FAQs",
+    "try_it_free": "Try it free"
+  },
+  "Footer": {
+    "company": "Nexpos",
+    "description": "Your POS solution",
+    "links": "Links",
+    "contact": "Contact",
+    "email": "Email: contact@nexpos.io",
+    "copyright": "© 2024 Nexpos. All rights reserved.",
+    "products": "Products",
+    "features": "Features",
+    "pricing": "Pricing",
+    "integrations": "Integrations",
+    "resources": "Resources",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "user_guide": "User Guide",
+    "company_section": "Company",
+    "about_us": "About Us",
+    "privacy_policy": "Privacy Policy",
+    "subscribe_placeholder": "Enter your email",
+    "subscribe_button": "Subscribe"
+  },
+  "HeroBanner": {
+    "title": "Modern POS System for Your Business",
+    "description": "Streamline your operations with our powerful point-of-sale solution",
+    "cta": "Get Started",
+    "download": "Download App",
+    "platform_support": "Supports Android, iOS and POS devices"
+  },
+  "SolutionsSection": {
+    "feature_badge": "Giải pháp từ NexPOS",
+    "title": "Giải pháp ALL-IN-ONE cho Vận hành Bán hàng Đa kênh Hiệu quả",
+    "description": "Tạm biệt sự hỗn loạn. Mọi công cụ bạn cần để vận hành và mở rộng - hội tụ trong một nền tảng duy nhất.",
+    "smart_order_management": "Quản lý đơn hàng đa kênh thông minh",
+    "smart_order_management_description": "Từ bán tại quầy, website, ứng dụng giao đồ ăn trực tuyến, sàn thương mại điện tử đến mạng xã hội - tất cả đơn hàng tập trung về một màn hình, đồng bộ real-time, xử lý nhanh chóng, không bỏ sót.",
+    "optimize_for_operations": "Vận hành đa thương hiệu, đa chi nhánh dễ dàng",
+    "optimize_for_operations_description": "Mở rộng và quản lý nhiều thương hiệu, nhiều cửa hàng trên cùng một hệ thống. Tùy chỉnh menu, sản phẩm, giá, khuyến mãi riêng cho từng thương hiệu, từng điểm bán. Hoàn toàn không phát sinh thêm chi phí bản quyền phần mềm khi bạn thêm mới thương hiệu.",
+    "flexible_menu_management": "Quản lý thực đơn, danh mục sản phẩm linh hoạt",
+    "flexible_menu_management_description": "Cập nhật món ăn, sản phẩm, giá bán, hình ảnh chỉ một lần duy nhất. Nexpos tự động đồng bộ đến tất cả kênh bán hàng, đảm bảo thông tin luôn chính xác, nhất quán, tiết kiệm thời gian tối đa.",
+    "stock_management": "Quản lý kho chính xác, chặt chẽ",
+    "stock_management_description": "Kiểm soát tồn kho real-time trên mọi kênh. Tự động trừ kho khi có đơn hàng mới, ghi nhận nhập-xuất-chuyển kho tức thì. Cảnh báo tồn kho thông minh, tránh thất thoát, hết hàng đột ngột, đảm bảo luôn sẵn sàng phục vụ.",
+    "centralize_reporting": "Báo cáo & phân tích trực quan, sâu sắc",
+    "centralize_reporting_description": "Phân tích chi tiết doanh thu và chi phí theo từng kênh bán hàng, từng thương hiệu, từng chi nhánh. Mỗi chỉ số được bóc tách rõ ràng theo đặc thù riêng của từng kênh bán và từng nền tảng, giúp bạn thấy được lợi nhuận thực sự của từng kênh. Dữ liệu báo cáo cập nhật tức thì, hỗ trợ ra quyết định nhanh và chính xác.",
+    "integrations": "Tích hợp linh hoạt và liền mạch",
+    "integrations_description": "Kết nối dễ dàng với hệ sinh thái đối tác: đơn vị vận chuyển, cổng thanh toán, phần mềm kế toán, ERP... Tạo luồng vận hành tự động, trơn tru từ A-Z.",
+    "customer_support": "Chăm sóc khách hàng toàn diện",
+    "customer_support_description": "Thu thập và quản lý dữ liệu khách hàng từ mọi điểm chạm. Phân nhóm, phân tích hành vi mua sắm để xây dựng chương trình loyalty, marketing cá nhân hóa, tăng tỷ lệ khách quay lại và doanh thu bền vững.",
+    "professional_support": "Đồng hành và hỗ trợ chuyên nghiệp",
+    "professional_support_description": "Đội ngũ chuyên gia giàu kinh nghiệm triển khai và hỗ trợ tận tâm. Cam kết đồng hành cùng bạn từ khâu cài đặt, đào tạo đến vận hành và tối ưu hệ thống. Hỗ trợ kỹ thuật luôn có mặt, giải quyết nhanh mọi vấn đề."
+  },
+  "WhoIsNexPOSFor": {
+    "interface_badge": "NexPOS dành cho ai?",
+    "title": "Bệ Phóng Tăng Trưởng Cho Mọi Quy Mô và Ngành Hàng",
+    "description": "Dù bạn là chủ một cửa hàng nhỏ muốn tối ưu vận hành, hay một doanh nghiệp lớn tham vọng mở rộng chuỗi và phát triển đa thương hiệu, NexPOS đều có giải pháp phù hợp.",
+    "types": [
+      {
+        "title": "F&B (Nhà hàng, Quán cà phê, Chuỗi F&B)",
+        "description": "Giải pháp toàn diện cho F&B, quản lý từ đơn hàng online, thực đơn, đến giao hàng và thanh toán. Tích hợp hệ thống, đồng bộ menu đa kênh, CRM giúp tối ưu hiệu quả, cải thiện trải nghiệm khách hàng, tăng lợi thế cạnh tranh."
+      },
+      {
+        "title": "Retail (Bán lẻ, Thời trang, Mỹ phẩm)",
+        "description": "Dù là cửa hàng bán lẻ nhỏ hay chuỗi thương hiệu lớn, NexPOS giúp bạn kết nối các điểm bán offline và online, quản lý đa thương hiệu, đa chi nhánh trên một hệ thống. Với khả năng tích hợp các kênh bán hàng và cung cấp báo cáo chi tiết, NexPOS giúp bạn tăng trưởng doanh thu và giảm chi phí vận hành."
+      },
+      {
+        "title": "Franchise (Nhượng quyền)",
+        "description": "Hỗ trợ quản lý đồng bộ các chi nhánh nhượng quyền, giúp nhà sáng lập và các đối tác nhượng quyền dễ dàng theo dõi hiệu suất bán hàng, tồn kho và lợi nhuận từ mọi địa điểm. Hệ thống phân quyền linh hoạt và khả năng mở rộng quy mô giúp NexPOS trở thành công cụ không thể thiếu trong việc quản lý và phát triển chuỗi nhượng quyền."
+      },
+      {
+        "title": "Cloud Kitchen",
+        "description": "Giải pháp toàn diện để quản lý nhiều thương hiệu ảo và tích hợp đa ứng dụng giao hàng trực tuyến trên cùng một nền tảng, giúp tối ưu chi phí và dễ dàng thử nghiệm, mở rộng các concept mới."
+      }
+    ]
+  },
+  "Testimonials": {
+    "testimonials_badge": "What customers say",
+    "title": "Hear real stories from real people"
+  },
+  "TrustedBy": {
+    "title": "Trusted by over 1,000+ stores and retail chains",
+    "our_customers": "Our Customers"
+  },
+  "Pricing": {
+    "pricing_badge": "Pricing",
+    "title": "Choose the right plan - expand as you grow",
+    "description": "Whether you're a small business or a large retail chain, NexPos has the right solution for you.",
+    "month": "Month",
+    "year": "Year",
+    "free": {
+      "name": "FREE",
+      "price": "0",
+      "description": "For new entrepreneurs with basic needs.",
+      "features": [
+        "Includes 2 stores",
+        "Multi-channel sales",
+        "Printer connection",
+        "Staff management",
+        "iOS and Android support"
+      ]
+    },
+    "ecommerce": {
+      "name": "E-COMMERCE",
+      "price": "100,000",
+      "description": "Suitable for online sellers with simple sales needs.",
+      "features": [
+        "Includes all Free features",
+        "Connect up to 3 stores",
+        "Menu and product category management",
+        "Order status sync with marketplace",
+        "Shipping and payment integration",
+        "Menu/product sync with marketplace",
+        "Sales & customer reports",
+        "Customer information storage"
+      ]
+    },
+    "basic": {
+      "name": "BASIC",
+      "price": "200,000",
+      "description": "Suitable for micro businesses with simple sales needs.",
+      "features": [
+        "Includes all E-Commerce features",
+        "Connect up to 4 stores",
+        "Create and manage in-store orders",
+        "Promotion management",
+        "Diverse promotions by customer, store, usage limit",
+        "Promotion code suggestions",
+        "Sales shift management",
+        "Unlimited staff",
+        "Expense management"
+      ]
+    },
+    "standard": {
+      "name": "STANDARD",
+      "price": "300,000",
+      "description": "Suitable for small and medium retail chains with professional sales needs.",
+      "features": [
+        "Includes all Basic features",
+        "Connect up to 8 stores",
+        "Sales through Brand.com",
+        "Multiple shipping and payment gateway connections",
+        "Web order via QR code",
+        "Order distribution within chain",
+        "Inventory management",
+        "Stock alerts",
+        "Purchase forecasting"
+      ]
+    },
+    "try_free": "Try for free",
+    "recommended": "Recommended"
+  },
+  "Features": {
+    "feature_badge": "FEATURES",
+    "title": "All the tools you need - in one system",
+    "features": [
+      {
+        "title": "Multi-channel order management",
+        "description": "Integrate in-store, online, social media sales - all synced in real-time"
+      },
+      {
+        "title": "Smart reporting",
+        "description": "Track sales, profits, and sales performance with detailed reports"
+      },
+      {
+        "title": "Inventory management",
+        "description": "Control stock, manage imports/exports, and receive automatic low stock alerts"
+      },
+      {
+        "title": "Customer care",
+        "description": "Store customer information and purchase history for better service"
+      },
+      {
+        "title": "Diverse payments",
+        "description": "Support multiple payment methods from cash to e-wallets"
+      },
+      {
+        "title": "Partner integration",
+        "description": "Easily connect with shipping partners and suppliers"
+      },
+      {
+        "title": "Customizable interface",
+        "description": "Design interface to match your brand"
+      },
+      {
+        "title": "24/7 support",
+        "description": "Technical support team always ready to answer your questions"
+      }
+    ]
+  },
+  "CTA": {
+    "title": "Ready to transform how you sell?",
+    "description": "Try NexPos free for 14 days – no credit card required. Quick setup, dedicated support.",
+    "button": "Get started now!"
+  },
+  "Benefits": {
+    "benefits_badge": "BENEFITS",
+    "title": "Benefits of using NexPos Seller App",
+    "description": "Discover the outstanding benefits from Seller App – a powerful sales management tool that helps you simplify processes, optimize revenue, and enhance customer experience.",
+    "benefits": [
+      "Easy Product Management",
+      "Multi-channel Synchronization",
+      "Detailed Revenue Reports",
+      "Sales Process Automation"
+    ],
+    "cta": "Bắt đầu ngay!"
+  },
+  "PricingToggle": {
+    "month": "Month",
+    "year": "Year"
+  }
+}
