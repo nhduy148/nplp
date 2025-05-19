@@ -33,15 +33,15 @@ export default function FAQSection() {
   ]
 
   return (
-    <div className="container mx-auto gap-5 py-12">
+    <div id="faq" className="container mx-auto gap-5 py-12">
       <h1 className="text-3xl font-bold md:my-5">{t("title")}</h1>
       <Accordion type="single" collapsible className="w-full">
         {faqItems.map((item, index) => (
           <AccordionItem key={index} value={`item-${index}`} className="border-b border-gray-200 py-2">
-            <AccordionTrigger className="flex justify-between items-center w-full py-4 text-left text-base font-medium hover:no-underline">
+            <AccordionTrigger className="flex justify-between items-center w-full py-4 text-left text-lg font-medium hover:no-underline">
               <span>{item.question}</span>
             </AccordionTrigger>
-            <AccordionContent className="pt-1 pb-4 text-gray-600">
+            <AccordionContent className="pt-1 pb-4 text-gray-600 text-base">
               {item.answer}
             </AccordionContent>
           </AccordionItem>

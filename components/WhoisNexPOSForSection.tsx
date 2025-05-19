@@ -20,7 +20,7 @@ export function WhoIsNexPOSForSection() {
         <div className="bg-[#f3f5f6] py-16">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="mb-8">
-                    <div className="bg-[#f5c349]/20 text-[#212b36] px-4 py-1 rounded-full text-sm font-medium inline-block mb-4">
+                    <div className="bg-[#f5c349] text-[#212b36] px-4 py-1 rounded-full text-sm font-bold inline-block mb-4">
                         {t('interface_badge')}
                     </div>
                     <h2 className="text-3xl md:text-4xl font-bold text-[#212b36] mb-4">

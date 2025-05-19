@@ -23,11 +23,10 @@ export default function TrustedBySection() {
     )
 
     const logos = [
-        { name: "Patreon", src: "/trust/trust-1.svg" },
-        { name: "Airbnb", src: "/trust/trust-2.svg" },
-        { name: "Fiberplane", src: "/trust/trust-3.svg" },
-        { name: "Coinbase", src: "/trust/trust-4.svg" },
-        { name: "Griffin", src: "/trust/trust-5.svg" }
+        { name: "Nutifood", src: "/trust/nutifood.png" },
+        { name: "OOO", src: "/trust/ooo.png" },
+        { name: "ĐMX", src: "/trust/dmx.png" },
+        { name: "CTBL", src: "/trust/ctbl.png" },
     ]
 
     return (
@@ -49,7 +48,7 @@ export default function TrustedBySection() {
                     <CarouselContent className="-ml-4">
                         {logos.map((logo, index) => (
                             <CarouselItem key={index} className="pl-4 md:basis-1/3 lg:basis-1/4">
-                                <div className="flex items-center justify-center h-20 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+                                <div className="flex items-center justify-center h-20 opacity-70 hover:opacity-100 transition-all duration-300">
                                     <Image
                                         src={logo.src || "/placeholder.svg"}
                                         alt={logo.name}
@@ -64,7 +63,7 @@ export default function TrustedBySection() {
                 </Carousel>
             </div>
 
-            <Button className="bg-amber-400 hover:bg-amber-500 text-gray-800 rounded-full px-6 py-2 flex items-center gap-2">
+            <Button className="bg-amber-400 hover:bg-amber-500 text-gray-800 rounded-full px-6 py-2 flex items-center gap-2 font-bold">
                 {t('our_customers')}
                 <ArrowRight className="h-4 w-4" />
             </Button>

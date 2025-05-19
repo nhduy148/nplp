@@ -28,7 +28,7 @@ export default async function Home({ params }: { params: { locale: string } }) {
             <HeroBanner />
 
             {/* Content sections with increased vertical spacing for better parallax effect */}
-            <div className="pb-12">
+            <div>
                 {/* Trusted By Section */}
                 <AnimatedSection delay={0.1}>
                     <TrustedBySection />

@@ -9,7 +9,7 @@
     "features": "Tính năng",
     "pricing": "Bảng giá",
     "faqs": "FAQs",
-    "try_it_free": "Dùng thử"
+    "try_it_free": "Dùng thử miễn phí"
   },
   "Footer": {
     "company": "NexPOS",
@@ -40,8 +40,8 @@
     "platform_support": "Hỗ trợ các thiết bị Android, iOS và POS"
   },
   "SolutionsSection": {
-    "feature_badge": "Giải pháp từ NexPOS",
-    "title": "Giải pháp ALL-IN-ONE cho Vận hành Bán hàng Đa kênh Hiệu quả",
+    "feature_badge": "Giải pháp",
+    "title": "Giải pháp ALL-IN-ONE cho vận hành bán hàng đa kênh hiệu quả",
     "description": "Tạm biệt sự hỗn loạn. Mọi công cụ bạn cần để vận hành và mở rộng - hội tụ trong một nền tảng duy nhất.",
     "smart_order_management": "Quản lý đơn hàng đa kênh thông minh",
     "smart_order_management_description": "Từ bán tại quầy, website, ứng dụng giao đồ ăn trực tuyến, sàn thương mại điện tử đến mạng xã hội - tất cả đơn hàng tập trung về một màn hình, đồng bộ real-time, xử lý nhanh chóng, không bỏ sót.",
@@ -62,7 +62,7 @@
   },
   "WhoIsNexPOSFor": {
     "interface_badge": "NexPOS dành cho ai?",
-    "title": "Bệ Phóng Tăng Trưởng Cho Mọi Quy Mô và Ngành Hàng",
+    "title": "Bệ phóng tăng trưởng cho mọi quy mô và ngành hàng",
     "description": "Dù bạn là chủ một cửa hàng nhỏ muốn tối ưu vận hành, hay một doanh nghiệp lớn tham vọng mở rộng chuỗi và phát triển đa thương hiệu, NexPOS đều có giải pháp phù hợp.",
     "types": [
       {
@@ -88,7 +88,7 @@
     "title": "Lắng nghe câu chuyện từ người thật việc thật"
   },
   "TrustedBy": {
-    "title": "Được tin tưởng bởi hơn 1.000+ của hàng và chuỗi hệ thống",
+    "title": "Được tin tưởng bởi hơn 1.000+ của hàng và chuỗi hệ thống đang sử dụng",
     "our_customers": "Khách hàng của chúng tôi"
   },
   "Pricing": {

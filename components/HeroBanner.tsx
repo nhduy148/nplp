@@ -5,6 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { POSPreview } from "./POSPreview";
 import { useTranslations } from 'next-intl';
+import Link from "next/link";
 
 export function HeroBanner() {
     const t = useTranslations('HeroBanner');
@@ -13,6 +14,14 @@ export function HeroBanner() {
         target: ref,
         offset: ["start start", "end start"]
     });
+
+    const scrollToFeatures = (e: React.MouseEvent) => {
+        e.preventDefault();
+        const featuresSection = document.getElementById('solutions');
+        if (featuresSection) {
+            featuresSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     // Enhanced transform values for more pronounced parallax layers
     const y1 = useTransform(scrollYProgress, [0, 1], [0, 150]); // Slow
@@ -75,7 +84,7 @@ export function HeroBanner() {
             {/* Content with parallax effect */}
             <motion.div className="relative z-10 pt-16" style={{ opacity }}>
                 <motion.h1
-                    className="text-[#27272a] text-4xl md:text-5xl font-bold leading-tight my-4"
+                    className="text-[#27272a] text-2xl md:text-5xl font-bold leading-tight my-4"
                     initial={{ opacity: 0, y: -30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, ease: "easeOut" }}
@@ -84,7 +93,7 @@ export function HeroBanner() {
                     {t('title')}
                 </motion.h1>
                 <motion.p
-                    className="text-[#637381] text-lg mb-8 max-w-4xl mx-auto"
+                    className="text-[#637381] text-base md:text-xl mb-8 max-w-4xl mx-auto"
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
@@ -101,17 +110,20 @@ export function HeroBanner() {
                     transition={{ duration: 0.7, delay: 0.4, ease: "easeOut" }}
                     style={{ y: useTransform(scrollYProgress, [0, 1], [0, -30]) }}
                 >
+                    <Link href="https://portal.nexpos.io/register">
                     <motion.button
-                        className="bg-[#f2bd00] hover:bg-[#dead00] text-[#212b36] font-medium py-3 px-8 rounded-full"
+                        className="bg-[#f2bd00] hover:bg-[#dead00] text-[#212b36] py-3 px-8 rounded-full font-bold w-full md:w-auto"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                     >
                         {t('cta')}
                     </motion.button>
+                    </Link>                 
                     <motion.button
-                        className="bg-[#edf0f5] hover:bg-[#dfe3e8] text-[#212b36] font-medium py-3 px-8 rounded-full flex items-center justify-center gap-2"
+                        className="bg-[#e6e8ed] hover:bg-[#dfe3e8] text-[#212b36] font-bold py-3 px-8 rounded-full flex items-center justify-center gap-2"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
+                        onClick={scrollToFeatures}
                     >
                         {t('download')} <ArrowDown className="h-4 w-4" />
                     </motion.button>

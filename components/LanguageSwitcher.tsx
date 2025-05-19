@@ -21,36 +21,36 @@ export function LanguageSwitcher() {
             <Button
                 variant="ghost"
                 size="sm"
-                className={`flex items-center gap-1.5 px-2.5 ${locale === 'en' ? 'bg-[#f5c349]/20' : 'hover:bg-gray-100'}`}
+                className={`flex items-center gap-1.5 px-2 ${locale === 'en' ? 'bg-[#f5c349]/20' : 'hover:bg-gray-100'}`}
                 onClick={() => switchLocale('en')}
             >
                 <ReactCountryFlag
                     countryCode="GB"
                     svg
                     style={{
-                        width: '1.2em',
-                        height: '1.2em',
+                        width: '1em',
+                        height: '1em',
                     }}
                     title="English"
                 />
-                <span className="text-sm font-medium">EN</span>
+                <span className="text-sm font-medium">ENG</span>
             </Button>
             <Button
                 variant="ghost"
                 size="sm"
-                className={`flex items-center gap-1.5 px-2.5 ${locale === 'vi' ? 'bg-[#f5c349]/20' : 'hover:bg-gray-100'}`}
+                className={`flex items-center gap-1.5 px-2 ${locale === 'vi' ? 'bg-[#f5c349]/20' : 'hover:bg-gray-100'}`}
                 onClick={() => switchLocale('vi')}
             >
                 <ReactCountryFlag
                     countryCode="VN"
                     svg
                     style={{
-                        width: '1.2em',
-                        height: '1.2em',
+                        width: '1em',
+                        height: '1em',
                     }}
                     title="Vietnamese"
                 />
-                <span className="text-sm font-medium">VI</span>
+                <span className="text-sm font-medium">VIE</span>
             </Button>
         </div>
     );
