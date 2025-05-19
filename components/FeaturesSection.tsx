@@ -16,7 +16,7 @@ export default function FeaturesSection() {
                 </h2>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 py-16 px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 py-16 px-4">
                 {t.raw('features').map((feature: any, index: number) => (
                     <div
                         key={index}

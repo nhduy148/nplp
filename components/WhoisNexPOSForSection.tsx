@@ -38,7 +38,9 @@ export function WhoIsNexPOSForSection() {
                             <div key={index} className={cn("bg-white cursor-pointer p-4 rounded-xl flex", index === selectedSection && "border-l-4 border-[#f2bd00]")} onClick={() => setSelectedSection(index)}>
                                 <div className="flex-1">
                                     <h3 className="text-lg font-semibold text-[#212b36] mb-2">{t(`types.${index}.title`)}</h3>
-                                    <p className="text-[#637381]">{t(`types.${index}.description`)}</p>
+                                    {index === selectedSection && (
+                                        <p className="text-[#637381]">{t(`types.${index}.description`)}</p>
+                                    )}
                                 </div>
                             </div>
                         ))}

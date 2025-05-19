@@ -28,7 +28,7 @@ export function BenefitsSection() {
 
     return (
         <div
-            className="pt-0 pb-16 relative"
+            className="pt-16 pb-16 relative"
             style={{
                 backgroundImage: 'url(/section-bg.png)',
                 backgroundSize: '100% auto', // Scale to full width while maintaining aspect ratio
@@ -91,7 +91,7 @@ export function BenefitsSection() {
                     <div className="w-full md:w-1/2 relative">
                         <div className="relative z-10">
                             <Image
-                                src="/benefit/banner-side.svg"
+                                src="/benefit/banner-side.png"
                                 alt="NexPos Seller App Interface"
                                 width={400}
                                 height={600}
